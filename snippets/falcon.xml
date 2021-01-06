@@ -7,6 +7,10 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+   <remote name="Falcon"
+          revision="Skyline-1.0"
+          fetch="https://github.com/Falcon-OS" />
+
   <remote  name="aosip"
            fetch="https://github.com/AOSiP"
            revision="refs/heads/eleven" />
@@ -15,7 +19,8 @@
            fetch="https://github.com/AOSiP-Devices"
            revision="refs/heads/eleven" />
 
-  <!-- AOSiP -->
+            <!-- FALCON -->
+
   <!-- General -->
   <project path="art" name="platform_art" remote="aosip" />
   <project path="bionic" name="platform_bionic" remote="aosip" />
