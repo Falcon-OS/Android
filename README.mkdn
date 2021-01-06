@@ -36,7 +36,7 @@ the repo binary the proper permissions
    $ mkdir ~/falcon 
 ``` 
 ``` 
-$ cd ~/flacon 
+   $ cd ~/flacon 
 ``` 
 Getting Started 
 --------------- 
