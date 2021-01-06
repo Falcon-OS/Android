@@ -192,7 +192,7 @@
   <project path="tools/metalava" name="platform_tools_metalava" remote="aosip" />
 
   <!-- Vendor -->
-  <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip" />
+  <project path="vendor/aosip" name="platform_vendor_falcon" remote="Falcon" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/gapps" name="TeamIllusion/platform_vendor_kronicgapps" remote="gitlab" revision="eleven" />
   <project path="vendor/overlay" name="platform_vendor_overlay" remote="aosip" />
