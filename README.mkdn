@@ -63,7 +63,7 @@ Make
 ``` 
 Eat 
 ```
-  $ time m kronic 
+  $ time m fly
 ``` 
 If you are building for a OnePlus device that supports Verizon, before lunching device enter 
 ```
