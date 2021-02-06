@@ -72,6 +72,7 @@
   <project path="external/openssh" name="platform_external_openssh" remote="aosip" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="aosip" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="aosip" />
+  <project path="external/pulse" name="platform_external_pulse" remote="aosip" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
