@@ -131,6 +131,8 @@
   </project>
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aosip" revision="eleven-caf" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="aosip" />
+  <project path="hardware/qcom/sm8150/display" name="platform_hardware_qcom_sm8150_display" remote="aosip" />
+  <project path="hardware/qcom/sm8150/media" name="platform_hardware_qcom_sm8150_media" remote="aosip" />
 
   <!-- Packages -->
   <project path="packages/apps/BasicSmsReceiver" name="platform_packages_apps_BasicSmsReceiver" remote="aosip" />
@@ -202,7 +204,7 @@
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="aosip" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="aosip" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="aosip" />
-   <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="aosip" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="platform_vendor_qcom_opensource_display-commonsys-intf" remote="aosip" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="aosip" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aosip" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="aosip" />
