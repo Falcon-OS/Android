@@ -76,7 +76,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="aosip" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="Falcon" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
