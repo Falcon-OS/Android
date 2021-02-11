@@ -57,11 +57,11 @@ The source at Falcon is well configured for building. You can choose to build wi
 ```
    $ . build/envsetup.sh 
 ``` 
-Make 
+Make / Lunch 
 ```
    $ lunch aosip_device-userdebug 
 ``` 
-Eat 
+Eat / Build
 ```
   $ time m fly
 ``` 
