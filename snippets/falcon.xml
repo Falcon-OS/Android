@@ -147,6 +147,7 @@
   <project path="packages/apps/DU-Themes" name="platform_packages_apps_DU-Themes" remote="aosip" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="aosip" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher" remote="Falcon" />
+  <project path="packages/apps/Plugins" name="platform_packages_apps_PotatoPlugins" remote="aosip" />
   <project path="packages/apps/ManagedProvisioning" name="platform_packages_apps_ManagedProvisioning" remote="aosip" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="aosip" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="aosip" />
