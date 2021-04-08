@@ -7,13 +7,17 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
-   <remote name="Falcon"
+  <remote name="Falcon"
           revision="Skyline-1.0"
           fetch="https://github.com/Falcon-OS" />
 
   <remote  name="aosip"
            fetch="https://github.com/AOSiP"
            revision="refs/heads/eleven" />
+
+  <remote name="Falconos"
+          revision="Skyline-1.1"
+          fetch="https://github.com/Falcon-OS" />
 
   <remote  name="devices"
            fetch="https://github.com/AOSiP-Devices"
@@ -39,7 +43,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="Falcon" >
+  <project path="build/soong" name="platform_build_soong" remote="Falconos" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -76,7 +80,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="aosip" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="Falcon" />
+  <project path="frameworks/base" name="frameworks_base" remote="Falconos" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="aosip" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="aosip" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="aosip" />
@@ -198,7 +202,7 @@
   <project path="tools/metalava" name="platform_tools_metalava" remote="aosip" />
 
   <!-- Vendor -->
-  <project path="vendor/aosip" name="platform_vendor_falcon" remote="Falcon" />
+  <project path="vendor/aosip" name="platform_vendor_falcon" remote="Falconos" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aosip" />
   <project path="vendor/gapps" name="TeamIllusion/platform_vendor_kronicgapps" remote="gitlab" revision="eleven" />
   <project path="vendor/overlay" name="vendor_overlay" remote="Falcon" />
