@@ -185,7 +185,7 @@
   <!-- System -->
   <project path="system/bpf" name="platform_system_bpf" remote="aosip" />
   <project path="system/bt" name="platform_system_bt" remote="aosip" />
-  <project path="system/core" name="platform_system_core" remote="aosip" />
+  <project path="system/core" name="platform_system_core" remote="Falconos" />
   <project path="system/extras" name="platform_system_extras" remote="aosip" />
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="aosip" />
   <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="aosip" />
