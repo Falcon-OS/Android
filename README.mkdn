@@ -9,7 +9,7 @@ FalconOS
 # Requirements
 * 250GB Or More Disk Space 
 * A computer with atleast 16GB Of Ram 
-* 25GB+ Unsuable InternetInternet 
+* 25GB+ Unsuable Internet 
 * A Brain with Git Knowledge 
 * Patience
 
